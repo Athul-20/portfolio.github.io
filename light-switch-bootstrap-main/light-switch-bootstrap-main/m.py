@@ -1,0 +1,2 @@
+
+print("oodikko0")
