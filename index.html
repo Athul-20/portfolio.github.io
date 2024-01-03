@@ -15,59 +15,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-  body,html {
-  margin: 0;
-  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-  background: #000;
-}
-ul { 
-  margin: 150px auto 0; 
-  padding: 0; 
-  list-style: none; 
-  display: table;
-  width: 600px;
-  text-align: center;
-}
-li { 
-  display: table-cell; 
-  position: relative; 
-  padding: 15px 0;
-}
-a {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  
-  display: inline-block;
-  padding: 15px 20px;
-  position: relative;
-}
-a:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-a:hover:after { 
-  width: 100%; 
-  left: 0; 
-}
-@media screen and (max-height: 300px) {
-	ul {
-		margin-top: 40px;
-	}
-}
-
-
-
-
 </style>
 <body class="">
 
@@ -95,14 +42,12 @@ a:hover:after {
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
- 
 </div>
 
 <!-- Page Content -->
@@ -111,7 +56,7 @@ a:hover:after {
   <header class="w3-container w3-padding-32 w3-center w3-light-grey" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span>Athul J R.</h1>
     <p>Student and Freelancer</p>.</p>
-    <img src= alt="boy" class="w3-image" width="200" height="400">
+    <img src= alt="boy" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
@@ -154,7 +99,7 @@ a:hover:after {
     </div>
     <p><b>Check out my Resume</b></p>
     <button class="w3-button w3-grey w3-padding-large w3-section">
-      <a href="https://github.com/Athul-20/portfolio.github.io/blob/main/resume.pdf" target="_blank" class="fa fa-download" > Go to Resume</a>
+      <a class="fa fa-download" href="resume.html"> Go to Resume</a>
     </button>
     
     <!-- Grid for tables -->
@@ -229,43 +174,15 @@ a:hover:after {
     </div>
     
     <!-- Testimonials -->
-<!--     <h3 class="w3-padding-24 w3-white">Short Term Goal</h3>  
+    <h3 class="w3-padding-24 w3-white">Short Term Goal</h3>  
     <img src="C:\Users\athul\OneDrive\Desktop\portfolio\goal.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:50px">
     <p><span class="w3-large w3-margin-right"></span> * Develop programming skills.</p>
     <p>*Find a part-time Job</p><br>
     <h3 class="w3-padding-24 w3-white">Long Term Goal</h3>  
     <!-- <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
     <p><span class="w3-large w3-margin-right">*Crack upsc exam.</span></p><p>*start a resturant.</p>
-    <p>*Travel over the world.</p> 
-   -->
-    <div>
-      <main class="main flow">
-  <h1 class="main__heading">Pricing</h1>
-  <div class="main__cards cards">
-    <div class="cards__inner">
-      <div class="cards__card card">
-        <h2 class="card__heading">Basic</h2>
-        <p class="card__price">$9.99</p>
-        <ul role="list" class="card__bullets flow">
-          <li>Access to standard workouts and nutrition plans</li>
-          <li>Email support</li>
-        </ul>
-        <a href="#basic" class="card__cta cta">Get Started</a>
-      </div>
-
-      <div class="cards__card card">
-        <h2 class="card__heading">Pro</h2>
-        <p class="card__price">$19.99</p>
-        <ul role="list" class="card__bullets flow">
-          <li>Access to advanced workouts and nutrition plans</li>
-          <li>Priority Email support</li>
-          <li>Exclusive access to live Q&A sessions</li>
-        </ul>
-        <a href="#pro" class="card__cta cta">Upgrade to Pro</a>
-      </div>
-
-    
-</main>
+    <p>*Travel till die.</p> 
+  
   </div>
 <div>
   <div class="w3-padding-64 w3-content" id="photos">
